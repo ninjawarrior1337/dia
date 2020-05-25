@@ -1,4 +1,4 @@
-### Dia: An HTTP file explorer inspired by h5ai
+# Dia: An HTTP file explorer inspired by h5ai
 
 Hahaha new project for me to drop support for in a few months, or maybe not who knows...
 I mean we are in quarantine, and I have nothing better to do.
