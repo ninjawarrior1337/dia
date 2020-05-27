@@ -29,7 +29,11 @@
         {{else}}
             <a href="../" class="panel-block">../</a>
             {{range .}}
-            <a href="./{{.Name}}/" class="panel-block">{{.Name}}</a>
+                {{if .IsDir}}
+                    <a href="./{{.Name}}/" class="panel-block">{{.Name}}</a>
+                {{else}}
+                    <a href="./{{.Name}}" class="panel-block">{{.Name}}</a>
+                {{end}}
             {{end}}
         {{end}}
     </nav>
